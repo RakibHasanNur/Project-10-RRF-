@@ -1,0 +1,163 @@
+/*medium layout: 1280px;*/
+/*@media screen and (min-device-width:992px) {
+	.single-product-item{
+		display: none;
+	}
+	.single-product-item:nth-child(2){
+		height: 520px;
+	}
+}*/
+/*Tablet layout 780px*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	ul.big-manu li {
+		font-size: 30px;
+	}
+	.product-area {
+    padding-top: 55px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+.homepage-slider-wrap {
+	background-color: #c9d4cf;
+	background-size: 1000%;
+	background-position: center;
+	height: 100%;
+}
+	.single-product-item{
+		width: 30%;
+		background-size: contain;
+		height: 250px;
+	}
+.single-product-item:nth-child(2) {
+    width: 60%;
+    height: 522px;
+}
+.single-product-item.product-bg-4 {
+    width: 62%;
+}
+.single-product-item.product-bg-8 {
+    width: 62%;
+}
+.footer-area p, .footer-area, .footer-area .text-right, .email-subscribe, .text-right .social-links{
+	text-align: center;
+}
+.footer-menu ul>li{
+	padding: 0 19px;
+}
+}
+
+/*small mobile*/
+@media screen and (min-width:320px) and (max-width: 768px){
+	.header-right{
+		display: none;
+	}
+	ul.float {
+    display: none;
+	}
+	.homepage-slider-wrap{
+		height: 100%;
+	}
+	.header-top-area a{
+		padding-top: 15px;
+		padding-bottom: 0px;
+	} 
+	.header-top-area {
+		position: relative;
+		background-color: #f8eeed;
+	}
+	.slide-text-tablecell{
+		font-size: 50px;
+		line-height: 60px;
+		padding-left: 0;
+		text-align: center;
+		vertical-align: center;
+		padding: 50px;
+	}
+		ul.big-manu li {
+		font-size: 30px;
+	}
+	.product-area {
+    padding-top: 55px;
+}
+.footer-area p, .footer-area, .footer-area .text-right, .email-subscribe, .text-right .social-links{
+	text-align: center;
+}
+.footer-menu ul>li{
+	padding: 0 19px;
+}
+input[type=email] {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    min-width: 50%;
+}
+.header-top-area{
+	padding: 15px 15px 5px;
+}
+
+.homepage-slider-wrap {
+	background-color: #c9d4cf;
+	background-size: 300% 300%; 
+	background-position: center;
+	height: 100%;
+}
+/*tried to make the img nicer while browsing on the phone then 
+thought that it's best to not have this pic in m-v(mobile version) at all*/
+.single-slide-item img {
+/*   position: absolute;
+    left: -10%;
+    width: 700px;
+    margin-left: 0;
+    bottom: 0px;
+    height: 100%; */
+    /*display: none;*/
+}
+.owl-carousel .owl-item .single-slide-item img {
+    width: auto;
+    display: none;
+}
+ul.big-manu{
+	display: block;
+	width: 100%; 
+}
+ul.big-manu li{
+	width: auto;
+}
+ul.big-manu li:nth-child(2), ul.big-manu li:nth-child(3){
+	width: auto;
+}
+ul.big-manu li a{
+	text-align: center;
+	padding-top: 100px; 
+}
+.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(8){
+	width: 100%;
+	float: none;
+}
+.promo-content{
+	padding: 20px;
+}
+.promo-bg{
+	padding-top: 10px;
+}
+.promo-title h1{
+	font-size: 25px;
+}
+.year-text{
+	font-size: 50px;
+	left: 30%;
+}
+.owl-dots {
+	display: inline-block;
+	/*display: flex;*/
+    /*flex-direction: row;*/
+    border: none;
+    position: absolute;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 3rem;
+}
+}
